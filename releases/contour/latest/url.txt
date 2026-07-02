@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/annamarm/Contour-updates/main/releases/contour/latest/manifest.json

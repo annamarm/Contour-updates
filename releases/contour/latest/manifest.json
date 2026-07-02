@@ -1,0 +1,27 @@
+{
+  "version": "1.0.1",
+  "released_at": "2026-07-02T14:57:08Z",
+  "min_version": "0.0.0",
+  "notes": "CI/CD smoke release: signed manifest to public Contour-updates channel.",
+  "artifacts": [
+    {
+      "name": "dataroom",
+      "kind": "image",
+      "ref": "ghcr.io/annamarm/contour-dataroom@sha256:9d43c0dff4eb444376704525124aa0828550dce24a92554e380e6f2f1cc04e8e",
+      "sha256": "sha256:9d43c0dff4eb444376704525124aa0828550dce24a92554e380e6f2f1cc04e8e"
+    },
+    {
+      "name": "frontend",
+      "kind": "image",
+      "ref": "ghcr.io/annamarm/contour-frontend@sha256:9658414526cd5b039f17b2703db54345ce4950792b320e99fe54e78283211856",
+      "sha256": "sha256:9658414526cd5b039f17b2703db54345ce4950792b320e99fe54e78283211856"
+    },
+    {
+      "name": "ops",
+      "kind": "image",
+      "ref": "ghcr.io/annamarm/contour-ops@sha256:0df82a081e3597ac9dbe6dfc1d836b6f791a3fb3a98d2a3a9ffed18fa238bbda",
+      "sha256": "sha256:0df82a081e3597ac9dbe6dfc1d836b6f791a3fb3a98d2a3a9ffed18fa238bbda"
+    }
+  ],
+  "signature": "e5ZFooCJ4ZERGCaxiQr/zMndGvf5Z97k6BHs3d/azMN4Vn6FDUa1BNvk1Vnjy/YAbB3AXajLxwTrBz6MtOOJBg=="
+}
